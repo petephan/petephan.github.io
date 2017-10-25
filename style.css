@@ -1,0 +1,186 @@
+/* BUS118W Fall 2008 Group BAVP */
+
+/* body styles */
+body.homepage
+{
+	border:thin; 
+	border-style:outset; 
+	width:940px; 
+	height:840px; 
+	position:absolute; 
+	top:2px;
+	left:2px;
+	font-family: Arial;
+}
+body.normalpage
+{
+	border:thin;
+	border-style:outset;
+	width:810px;
+	height:820px;
+	position:absolute;
+	top:2px;
+	left:2px;
+	font-family: Arial;
+}
+body.productpage
+{
+	border:thin;
+	border-style:outset;
+	width:810px;
+	height:1420px;
+	position:absolute;
+	top:2px;
+	left:2px;
+	font-family: Arial;
+}
+
+a.menu_button
+{
+	font-family:Arial;
+	font-size:14pt;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:20px;
+	padding-right:20px;
+	border-color:white;
+	border-style:none;
+	text-decoration:none;
+	color:white;
+	background-color:#0066CC;
+}
+
+a:hover.menu_button
+{
+	background-color:white;
+	color:blue;
+	border:outset;
+	font-size:16pt;
+}
+
+a.page_heading
+{
+	position:absolute; 
+	top:240px; 
+	left:10px; 
+	font-weight:bold; 
+	font-size:20pt; 
+	font-family:Arial; 
+	color:rgb(51, 102, 204);
+}
+
+/* index.html styles */
+
+.home
+{
+	text-align:center; 
+	font-family:Arial, Helvetica, sans-serif; 
+	color:#0066CC;
+}
+div.topbox
+{
+	background-color:#DDEBFF;
+	margin-bottom:.5em;
+	position:absolute;
+	left:290px;
+	top: 7px;
+	height: 255px;
+	width:400px;
+	text-align:center;
+	font-family:Arial;
+	color:#0066CC;
+}
+
+/* feedback.html styles */
+
+p.feedback
+{ 
+	font-family:Arial; 
+	font-size:18pt; 
+	color:rgb(51, 102, 204); 
+	text-align:center;
+}
+
+/* feedbacklogin.html styles */
+
+.form
+{
+	font-family:Arial; 
+	font-size:18pt; 
+	color:rgb(51, 102, 204);
+}
+p.heading
+{
+	position:absolute; 
+	top:150px; 
+	left:220px; 
+	font-weight:bold; 
+	font-size:20pt; 
+	font-family:Arial; 
+	color:rgb(51, 102, 204);
+}
+
+
+/* contact.html styles */
+table.contact
+{	
+	font-family:Arial; 
+	font-size:18pt; 
+	color:rgb(51, 102, 204);
+	text-align:center;
+}
+
+
+/* people.html hover events */
+
+.ceo:before
+{
+	content: "";
+}
+.ceo:hover:before
+{
+	z-index:1; content:"(CEO) "; font-style:italic; color:#3366CC
+}
+.cfo:before
+{
+	content: "";
+}
+.cfo:hover:before
+{
+	z-index:1; content:"(CFO) "; font-style:italic; color:#3366CC
+}
+.cio:before
+{
+	content: "";
+}
+.cio:hover:before
+{
+	z-index:1; content:"(CIO) "; font-style:italic; color:#3366CC
+}
+.coo:before
+{
+	content: "";
+}
+.coo:hover:before
+{
+	z-index:1; content:"(COO) "; font-style:italic; color:#3366CC
+}
+
+/* links.html styles */
+
+.links
+{
+	font-family:Arial; 
+	font-size:18pt; 
+	color:rgb(51, 102, 204);
+}
+
+a.decoration
+{
+	text-decoration:none;
+}
+
+a:hover.decoration
+{
+	color:blue;
+}
