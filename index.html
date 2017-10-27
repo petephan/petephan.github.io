@@ -158,8 +158,8 @@
       <div class="container">
         <h2 class="text-center">Contact Me</h2>
         <hr class="star-primary">
-		<center>
-			<form id="contactform" action="https://formspree.io/phanpeter43@gmail.com" method="POST">
+			<!--Formspree contact form
+			<form id="contactform" action="https://formspree.io/MYEMAILHERE" method="POST">
 				<div class="col-sm-7 slideanim">
 				  <div class="row">
 					<div class="col-sm-6 form-group">
@@ -174,13 +174,57 @@
 					<div class="col-sm-12 form-group">
 					<button type="submit" class="btn btn-success btn-lg" id="sendMessageButton">Send</button>
 					  <!--<button class="btn btn-default pull-right" type="submit">Send</button>-->
-					</div>
+			<!--</div>
 				  </div>
 				</div>
 				<input type="hidden" name="_next" value="https://petephan.github.io/confirmation.html" />
 				<input type="text" name="_gotcha" style="display:none" />   
-			</form>
-			</center>
+			</form>-->
+	
+		<center>
+			<div class="col-sm-4 slideanim">
+			<script type="text/javascript">var submitted=false;</script>
+			<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"     
+				onload="if(submitted) {window.location='http://www.peterphan.net/confirmation.html';}"></iframe>
+					  <form action="https://docs.google.com/forms/d/e/1FAIpQLSednPz6kwOjHDVHGUmsfFdOHf0HrTNSTxBMHyQXjdS8JpMggA/formResponse" method="post" target="hidden_iframe" 
+				onsubmit="submitted=true;">
+			  <input type="hidden" name="redirect" value="http://www.peterphan.net/confirmation.html">
+				<div class="row">
+				  <div class="col-md-12">
+					<div class="form-group">
+					  <input type="text" name="entry.2005620554" value="" class="form-control" id="entry_2005620554" dir="auto" aria-label="Name  " aria-required="true" placeholder="Name">
+					</div>
+				  </div>
+				</div>
+				<div class="row">
+				  <div class="col-md-12">
+					<div class="form-group">
+					  <input type="text" name="entry.1045781291" value="" class="form-control" id="entry_1045781291" dir="auto" aria-label="Email  " aria-required="true" placeholder="Email">
+					</div>
+				  </div>
+				</div>
+				<div class="row">
+				  <div class="col-md-12">
+					<div class="form-group">
+					  <input type="text" name="entry.1166974658" value="" class="form-control phone" id="entry_1166974658" dir="auto" aria-label="Phone Number  " aria-required="true" placeholder="Phone">
+					</div>
+				  </div>
+				</div>
+				<div class="row">
+				  <div class="col-md-12">
+					<div class="form-group">
+					  <input type="text" name="entry.839337160" value="" class="form-control comments" id="entry_839337160" dir="auto" aria-label="Comments  " aria-required="true" placeholder="Comments">
+					</div>
+				  </div>
+				</div>
+				<div class="col-md-12">
+				  <div class="form-group">
+					<input type="submit" id="submit" class="btn btn-success btn-lg" name="submit" value="Send">
+				  </div>
+				</div>	
+			<!--</form>-->
+			</div>
+		</center>
       </div>
     </section>
 
@@ -189,11 +233,11 @@
       <div class="footer-above">
         <div class="container">
           <div class="row">
-            <div class="footer-col col-md-4">
+            <div class="footer-col col-md-6">
               <h3>Location</h3>
               <p>San Jose, CA</p>
             </div>
-            <div class="footer-col col-md-4">
+            <div class="footer-col col-md-6">
               <h3>Around the Web</h3>
               <ul class="list-inline">
                 <li class="list-inline-item">
@@ -223,11 +267,6 @@
                 </li>
               </ul>
             </div>
-            <div class="footer-col col-md-4">
-              <h3>About Freelancer</h3>
-              <p>Freelance is a free to use, open source Bootstrap theme created by
-                <a href="http://startbootstrap.com">Start Bootstrap</a>.</p>
-            </div>
           </div>
         </div>
       </div>
@@ -235,7 +274,7 @@
         <div class="container">
           <div class="row">
             <div class="col-lg-12">
-              Copyright &copy; Your Website 2017
+              Copyright &copy; PeterPhan.net 2017
             </div>
           </div>
         </div>
