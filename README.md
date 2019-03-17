@@ -4,6 +4,6 @@ Peter's online resume
 
 ## Preview
 
-[![Resume Preview](https://startbootstrap.com/assets/img/screenshots/themes/resume.png)]]
+[![Resume Preview](src="img/profile2.png"]]
 
 **[View Live Preview](https://www.peterphan.net/)**
