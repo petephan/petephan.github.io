@@ -6,4 +6,4 @@ Peter's online resume
 
 [![Resume Preview](src="img/profile2.png"]]
 
-**[View Live Preview](https://www.peterphan.net/)**
+**[View Live Preview](https://www.peterphan.net/img/resume.png)**
