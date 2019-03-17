@@ -1,6 +1,6 @@
 # [Resume](https://www.peterphan.net/)
 
-[Resume](https://www.peterphan.net/) Peter's online resume
+Peter's online resume
 
 ## Preview
 
